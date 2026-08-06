@@ -22,7 +22,7 @@ class Pessoa {
     }
 }
 
-const pessoa1 = new Pessoa("Guilherme", 17, "Gay");
+const pessoa1 = new Pessoa("Guilherme", 17, "Masculino");
 const pessoa2 = new Pessoa("Vinicius", 17, "Masculino");
 
 console.log("-------------------------------");
