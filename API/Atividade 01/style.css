@@ -1,0 +1,142 @@
+
+body {
+    min-height: 100vh;
+    background: #0025e0;
+    background: linear-gradient(52deg, rgba(0, 37, 224, 1) 0%, rgba(184, 174, 235, 1) 51%, rgba(91, 91, 240, 1) 85%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*-----------------------------------*/
+/*Botão adicionar tarefas*/
+
+/* Estilização do Botão Adicionar */
+.botao-adicionar {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: #4c90af8f;
+    color: white;
+
+    font-size: 35px;
+    cursor: pointer;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+    transition: 0.3s;
+}
+
+
+.botao-adicionar:hover {
+    transform: scale(1.1);
+}
+
+/* -----------------------------------*/
+/*caixa do card*/
+.colunas-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.coluna {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.41);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+}
+
+/* -----------------------------------*/
+/*cards dentro do card*/
+.tarefa {
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: grab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* From https://css.glass */
+background: rgba(54, 40, 40, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(54, 40, 40, 0.3);
+}
+
+/* Área de drop dentro de cada coluna */
+#afazer,
+#fazendo,
+#Finalizado {
+    min-height: 300px;
+}
+
+.botao-excluir {
+
+    background-color: transparent;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    margin-left: 15px;
+
+}
+
+.destino {
+
+    background-color: #e3f2fd;
+
+    border: 2px dashed #2196f3;
+
+}
+
+.movido {
+
+    animation: mover 0.5s;
+
+}
+
+
+@keyframes mover {
+
+    0% {
+
+        transform: scale(1);
+
+    }
+
+
+    50% {
+
+        transform: scale(1.1);
+
+    }
+
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
