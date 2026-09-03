@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Visita Técnica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Registro de Presença</h1>
+
+        <button id="btnLocalizacao">Obter Localização</button>
+
+        <div id="dadosLocalizacao">
+            <p><strong>Latitude:</strong> <span id="latitude">-</span></p>
+            <p><strong>Longitude:</strong> <span id="longitude">-</span></p>
+            <p><strong>Precisão:</strong> <span id="precisao">-</span></p>
+        </div>
+
+        <button id="btnCamera">Abrir Câmera</button>
+
+        <video id="camera" autoplay></video>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

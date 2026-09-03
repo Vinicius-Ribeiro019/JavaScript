@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: linear-gradient(199deg, rgba(20, 15, 168, 1) 0%, rgba(217, 225, 252, 1) 100%);
+}
+
+
+.container {
+    padding: 20px;
+    text-align: center;
+    width: min(400px, 100%);
+    /* From https://css.glass */
+    background: rgba(255, 229, 229, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:lightgray;
+    color: grey;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: min(280px, 100%);
+    border: none;
+    /* From https://css.glass */
+    background: rgba(255, 229, 229, 0.26);
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+#resultado {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
