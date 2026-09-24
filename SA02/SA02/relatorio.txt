@@ -1,0 +1,13 @@
+# Relatório de Melhorias - NewsToday
+
+Para desenvolver a nova versão do NewsToday, fiz algumas mudanças para deixar o site mais organizado, bonito e fácil de usar.
+
+A primeira mudança foi na estrutura do HTML. Troquei várias `div`s por tags semânticas como `header`, `nav`, `main`, `section`, `article` e `footer`, deixando o código mais organizado e seguindo as boas práticas de desenvolvimento web.
+
+Também mudei o tema do site. Em vez de um portal de notícias gerais, transformei o NewsToday em um portal voltado para notícias sobre games e a indústria dos jogos, com conteúdos relacionados a lançamentos, e-sports e mercado gamer.
+
+No visual do site, alterei as cores, as fontes e o cabeçalho para deixá-lo mais moderno. Além disso, organizei as notícias em cartões com imagens, títulos e descrições, o que facilita a leitura e deixa a página mais agradável.
+
+Outra melhoria importante foi a responsividade. Utilizei Media Queries para que o site funcione corretamente em computadores, tablets e celulares, ajustando o layout conforme o tamanho da tela.
+
+Por fim, procurei manter o código organizado e fácil de entender, aplicando os conceitos de HTML semântico, UX, UI e Design Responsivo aprendidos durante as aulas.

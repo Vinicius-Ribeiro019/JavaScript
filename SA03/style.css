@@ -1,0 +1,151 @@
+ * {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial;
+background-color: #eeeeee;
+color: #222;
+}
+
+/* Cabeçalho */
+
+header {
+background-color: #333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+header h1 {
+margin-bottom: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+/* Parte inicial */
+
+.inicio {
+background-color: #4a6fa5;
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+
+.inicio h2 {
+margin-bottom: 15px;
+}
+
+.inicio p {
+margin-bottom: 20px;
+}
+
+/* Pesquisa */
+
+input {
+padding: 10px;
+width: 250px;
+border: 1px solid #ccc;
+}
+
+button {
+padding: 10px;
+background-color: #333;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+/* Eventos */
+
+.eventos {
+padding: 40px 8%;
+}
+
+#carregando {
+margin-bottom: 20px;
+}
+
+/* Cards */
+
+#listaEventos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+
+.card {
+background-color: white;
+padding: 20px;
+border: 1px solid #ccc;
+}
+
+.card h3 {
+margin-bottom: 15px;
+}
+
+.card p {
+margin-bottom: 8px;
+}
+
+.card button {
+margin-top: 10px;
+background-color: #4a6fa5;
+}
+
+/* Detalhes */
+
+.detalhes {
+margin-top: 15px;
+padding-top: 15px;
+border-top: 1px solid #ccc;
+}
+
+/* Sobre */
+
+.sobre {
+background-color: white;
+padding: 40px 20px;
+text-align: center;
+}
+
+.sobre h2 {
+margin-bottom: 15px;
+}
+
+.sobre p {
+max-width: 600px;
+margin: auto;
+}
+
+/* Rodapé */
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+/* Media Query */
+
+@media (max-width: 700px) {
+
+#listaEventos {
+    grid-template-columns: 1fr;
+}
+
+input {
+    width: 60%;
+}
+
+header {
+    text-align: center;
+}
+
+
+}
