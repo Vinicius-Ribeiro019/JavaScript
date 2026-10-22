@@ -2,3 +2,6 @@ node_modules
 dist
 package-lock.json
 package.json
+bootstrap-5.3.8-examples/
+node_modules/
+dist/
